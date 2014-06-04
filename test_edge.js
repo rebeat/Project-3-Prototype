@@ -54,7 +54,7 @@ var symbols = {
             fromState: "Base State",
             toState: "",
             duration: 2000,
-            autoPlay: true,
+            autoPlay: false,
             timeline: [
                 { id: "eid7", tween: [ "style", "${_Rectangle}", "left", '366px', { fromValue: '79px'}], position: 0, duration: 2000 },
                 { id: "eid8", tween: [ "style", "${_Rectangle}", "top", '239px', { fromValue: '89px'}], position: 0, duration: 2000 }            ]
